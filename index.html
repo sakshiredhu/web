@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Open New Page</title>
 </head>
 <body>
+    <button onclick="openNewPage()">Click Me</button>
+
+    <script>
+        function openNewPage() {
+            window.open("https://www.example.com", "_blank");
+        }
+    </script>
+
+
+
+
     <header>
         <h1>Welcome to My Simple Webpage</h1>
     </header>
